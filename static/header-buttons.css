@@ -1,0 +1,36 @@
+.logo-button-div{
+    display: inline-block;
+    margin: 8px 10px;
+}
+
+.search-div {
+    flex-direction: row;
+    display: flex;
+    width: 300px;
+
+}
+
+.search-input-text-box {
+    height: 38px;
+    margin: 8px 0 8px 10px;
+    border-width: 1px;
+    border-radius: 1px 1px 0 0;
+    padding: 0 2px;
+    cursor: text;
+    width: 1fr;
+}
+
+.search-icon-input-div {
+    width: 64px;
+    height: 40px;
+    text-align: center;
+    margin-top: 8px;
+    background-color: rgba(45,45,45,0.95);
+}
+
+.search-icon-input {
+    width: 24px;
+    height: 24px;
+    margin-top: 8px;
+    cursor: pointer;
+}
