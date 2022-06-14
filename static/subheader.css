@@ -1,0 +1,36 @@
+.subheader-div {
+    display: flex;
+    flex-direction: row;
+    height: 6vh;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    border-top: 1px solid rgba(55, 55, 55, 1);
+    border-bottom: 1px solid rgba(55, 55, 55, 1);
+    background-color: rgba(33, 33, 33, 1);
+}
+
+.subheader-all-button {
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    margin-right: 5px;
+}
+
+.subheader-button {
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid gray;
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    background-color: rgba(55, 55, 55, 1);
+    margin-left: 5px;
+    margin-right: 5px;
+}

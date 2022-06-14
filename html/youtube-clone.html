@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="stylesheet" href="../static/general.css">
     <link rel="stylesheet" href="../static/left-bar-buttons.css">
-    <link rel="stylesheet" href="../static/header-buttons.css">
+    <link rel="stylesheet" href="../static/header.css">
+    <link rel="stylesheet" href="../static/subheader.css">
+    <link rel="stylesheet" href="../static/video.css">
     <meta charset="UTF-8">
     <title>Title</title>
   </head>
-  <body>
+  <body style="margin: 0">
   <div class="page-layout-grid">
     <div class="left-bar-grid">
       <div class="side-bar-first-button-div">
-        <input class="side-bar-button" type="image" src="../assets/side-bar-button.jpg" alt="button1"/>
+        <input class="side-bar-first-button" type="image" src="../assets/side-bar-button.jpg" alt="button1"/>
       </div>
       <div class="side-bar-button-div">
         <input class="side-bar-button" type="image" src="../assets/home.jpg" alt="button2"/>
@@ -37,29 +39,64 @@
 
     <div class="right-bar-div">
       <div class="header-grid">
-        <div class="logo-button-div">
+        <div class="header-left-section-div">
           <input type="image" src="../assets/yt-logo.jpg" alt="logo-icon"/>
         </div>
-        <div class="search-div">
+        <div class="header-middle-section-div">
           <input class="search-input-text-box" type="text" placeholder="Search"  alt="search-box"/>
           <div class="search-icon-input-div">
             <input class="search-icon-input" type="image" src="../assets/search.jpg" alt="search-img"/>
           </div>
+          <button class="round-icon-button" >
+            <img src="../assets/microphone.png" alt="camera-icon">
+          </button>
         </div>
-        <div>div</div>
+        <div class="header-right-section-div">
+          <button class="icon-button">
+            <img src="../assets/camera.png" alt="camera-icon">
+          </button>
+          <button class="icon-button">
+            <img src="../assets/grid.png" alt="camera-icon">
+          </button>
+          <button class="icon-button">
+            <img src="../assets/notification.png" alt="camera-icon">
+          </button>
+          <button class="round-icon-profile-button">T</button>
+        </div>
       </div>
-      <div class="subheader-div">div 4</div>
-      <div class="videos-grid">
-        <div class="video-div">video</div>
-        <div class="video-div">video</div>
-        <div class="video-div">video</div>
-        <div class="video-div">video</div>
-        <div class="video-div">video</div>
-        <div class="video-div">video</div>
-        <div class="video-div">video</div>
-        <div class="video-div">video</div>
-        <div class="video-div">video</div>
-
+      <div class="subheader-div">
+        <button class="subheader-all-button">All</button>
+        <button class="subheader-button">Gaming</button>
+        <button class="subheader-button">Music</button>
+        <button class="subheader-button">The Witcher</button>
+        <button class="subheader-button">Soundtracks</button>
+        <button class="subheader-button">Mixes</button>
+        <button class="subheader-button">Live</button>
+        <button class="subheader-button">Chill</button>
+        <button class="subheader-button">CSS</button>
+        <button class="subheader-button">Computers</button>
+        <button class="subheader-button">Driving</button>
+        <button class="subheader-button">Games</button>
+        <button class="subheader-button">Audio commentaries</button>
+        <button class="subheader-button">Pop music</button>
+        <button class="subheader-button">Comedy</button>
+        <button class="subheader-button">Recently uploaded</button>
+      </div>
+      <div class="videos-flexbox">
+        <div class="video-container">
+          <div>
+            <img class="thumbnail" src="https://lh6.googleusercontent.com/proxy/R_bEE5liPjpiEXm99sWrtBOwoFfMEcMHlVDjFp1r8DwQLKKu62FZkyRSd708bWCPFATC3kizhROPxb_M5-ILT1eiNgRjMOcey5qosKBKq56Hy8PRWvXUKMRsAa2wb0mSdaMKmDMJqGNCzw=w1152-h603-s-nd" alt="video1">
+          </div>
+        </div>
+        <div class="video-container">video</div>
+        <div class="video-container">video</div>
+        <div class="video-container">video</div>
+        <div class="video-container">video</div>
+        <div class="video-container">video</div>
+        <div class="video-container">video</div>
+        <div class="video-container">video</div>
+        <div class="video-container">video</div>
+        <div class="video-container">video</div>
       </div>
     </div>
   </div>
