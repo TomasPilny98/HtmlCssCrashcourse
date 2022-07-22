@@ -3,6 +3,7 @@ Learning web design through cloning yt.
 
 Resulting design is done only with basics of html5 and css3 (no js).
 
+
 My version:
 ![image](https://user-images.githubusercontent.com/106174353/173665965-fd1da6ba-a932-4028-ac06-1ceafa16d3c4.png)
 
